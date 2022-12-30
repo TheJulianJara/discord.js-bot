@@ -1,0 +1,27 @@
+{
+    "name": "thejulianjara/bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "start.js",
+    "scripts": {
+        "start": "node start.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TheJulianJara/Bot.git"
+    },
+    "author": "TheJulianJara",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/TheJulianJara/Bot/issues"
+    },
+    "homepage": "https://github.com/TheJulianJara/Bot#readme",
+    "dependencies": {
+        "@discordjs/rest": "^1.3.0",
+        "chalk": "^2.4.1",
+        "discord.js": "^13.12.0",
+        "fs": "^0.0.1-security",
+        "moment": "^2.29.1",
+        "mongoose": "^6.5.2"
+    }
+}
