@@ -1,2 +1,4 @@
 # Bot
- Bot Base in Discord.js v13
+Botbase hardcoded in discord.js v13
+
+
