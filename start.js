@@ -19,10 +19,10 @@ const rest = new REST({ version: '9' }).setToken(config.bot.token);
         console.log('Se inició el registro de slash commands.');
 
         await rest.put(
-            Routes.applicationCommands(config.bot.clientId, config.bot.guildId), { body: commands },
+            Routes.applicationCommands(config.bot.id, config.guild.id), { body: commands },
         );
-
-        console.log('Se registraron slash commands correctamente. Por favor, inicie el bot nuevamente.');
+        console.log('Se registraron slash commands correctamente. Iniciando el bot');
+        require('./index.js')
     } catch (error) {
         console.error(error);
     }
