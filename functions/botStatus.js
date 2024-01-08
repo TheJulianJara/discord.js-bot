@@ -1,8 +1,10 @@
+const { ActivityType } = require('discord.js');
+
 async function setStatus(client) {
     await client.user.setPresence({
         activities: [{
             name: `desarrollarse`,
-            type: "PLAYING"
+            type: ActivityType.PLAYING,
         }],
         status: "idle"
     });
