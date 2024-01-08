@@ -22,7 +22,7 @@ const rest = new REST({ version: '9' }).setToken(config.bot.token);
             Routes.applicationCommands(config.bot.id, config.guild.id), { body: commands },
         );
         console.log('Se registraron slash commands correctamente. Iniciando el bot');
-        require('./index.js')
+        require('./client.js')
     } catch (error) {
         console.error(error);
     }
