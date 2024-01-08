@@ -5,6 +5,7 @@ let bot = {
         id: '',
     }
 }
+S
 let db = {
     url: "",
 }
