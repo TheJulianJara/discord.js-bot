@@ -5,5 +5,4 @@ module.exports = async(client) => {
     await connectionDB(client)
     await setStatus(client)
     await client.logger.log(`Bot iniciado correctamente como ${client.user.tag}!`, "ready");
-
 }
